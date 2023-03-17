@@ -1,4 +1,10 @@
-.container-fluid, .row {  height: 100%; }
+main, .row {  height: 100%; }
 .navbar-new { height: 80px; }
 input { width: 60px !important; height: 25px; }
 input[type=number] { -moz-appearance: textfield; }
+main { padding-bottom: 130px; }
+footer {
+    width: 100%;
+    position: absolute; 
+    bottom: 0; 
+}

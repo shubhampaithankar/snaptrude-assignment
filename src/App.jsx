@@ -1,4 +1,5 @@
 import React, { Suspense, useState, useRef } from "react"
+import Footer from "./components/Footer"
 import Navbar from './components/Navbar'
 
 import './styles.css'
@@ -39,6 +40,7 @@ const App = () => {
           </div>
         </Suspense>
       </main>
+      <Footer />
     </>
   )
 }
