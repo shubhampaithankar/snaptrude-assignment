@@ -16,7 +16,7 @@ const Mapbox = (props) => {
       })
     }
     return (
-      <div className="d-flex flex-column align-items-center justify-content-center" style={{ height: '100%' }}>
+      <div className='d-flex flex-column align-items-center justify-content-center' style={{ height: '100%' }}>
         <MapProvider>
           <Map
             ref={mapRef}
@@ -25,7 +25,7 @@ const Mapbox = (props) => {
             initialViewState={viewState}
             onMove={evt => setViewState(evt.viewState)}
             style={{width: 500, height: 500}}
-            mapStyle="mapbox://styles/mapbox/streets-v9"
+            mapStyle='mapbox://styles/mapbox/streets-v9'
           />
           <button className='btn btn-primary my-1' onClick={captureMap}>Capture Map</button>
         </MapProvider>
