@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { FreeCamera, Vector3, HemisphericLight, MeshBuilder, Texture, StandardMaterial, Color3, Engine, Scene } from '@babylonjs/core'
 
 let box
-const Playground = ({ image: { image, setImage }, shape: { shape }, antialias, engineOptions, adaptToDeviceRatio, sceneOptions }) => {
+const Playground = ({ image: { image }, shape: { shape }, antialias, engineOptions, adaptToDeviceRatio, sceneOptions }) => {
 
   const reactCanvas = useRef(null)
 

@@ -38,15 +38,15 @@ const Navbar = (props) => {
             <form className='d-flex align-items-center justify-content-evenly' style={{ width: '80%' }} onSubmit={HandleSubmit} onReset={HandleReset}>
               <div className='form-group'>
                 <label>Longitude</label>
-                <input type='number'  className='form-control'  min={-180} max={180} required/>
+                <input type='number'  className='form-control'  min={-180} max={180} step=".0001" required/>
               </div>
               <div className='form-group'>
                 <label>Latitude</label>
-                <input type='number'  className='form-control' min={-90} max={900} required/>
+                <input type='number'  className='form-control' min={-90} max={900} step=".0001" required/>
               </div>
               <div className='form-group'>
                 <label>Zoom</label>
-                <input type='number'  className='form-control' min={0} max={22} required/>
+                <input type='number'  className='form-control' min={0} max={22} step=".0001" required/>
               </div>
               <div className='form-group'>
                 <button type='submit' className='btn btn-success mt-2 mx-1'>Go</button>

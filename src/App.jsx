@@ -15,7 +15,7 @@ const App = () => {
   const [viewState, setViewState] = useState({
     longitude: 80,
     latitude: 22,
-    zoom: 4
+    zoom: 3.25
   })
 
   const props = {
